@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//   TRTCMixTranscodingDemo
+//  ProductTest
 //
-//  Created by 陈荣科 on 2021/4/4.
+//  Created by 陈荣科 on 2020/12/22.
 //
 
 #import <UIKit/UIKit.h>

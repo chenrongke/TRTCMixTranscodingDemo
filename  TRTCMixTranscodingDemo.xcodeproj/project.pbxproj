@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3CB5C588A3E02A81A02288 /* Pods__TRTCMixTranscodingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF5B772D7CBA68712CAE8B7 /* Pods__TRTCMixTranscodingDemo.framework */; };
 		80AB617B26199B7500A33EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB617A26199B7500A33EAB /* AppDelegate.m */; };
-		80AB617E26199B7500A33EAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB617D26199B7500A33EAB /* SceneDelegate.m */; };
 		80AB618126199B7500A33EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB618026199B7500A33EAB /* ViewController.m */; };
 		80AB618426199B7500A33EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AB618226199B7500A33EAB /* Main.storyboard */; };
 		80AB618626199B7800A33EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AB618526199B7800A33EAB /* Assets.xcassets */; };
@@ -16,6 +16,11 @@
 		80AB618C26199B7800A33EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB618B26199B7800A33EAB /* main.m */; };
 		80AB619626199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB619526199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m */; };
 		80AB61A126199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61A026199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m */; };
+		80AB61CA2619A97400A33EAB /* GenerateTestUserSig.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61C82619A97400A33EAB /* GenerateTestUserSig.m */; };
+		80AB61DA2619A9E200A33EAB /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61D22619A9E200A33EAB /* LoginView.m */; };
+		80AB61DB2619A9E200A33EAB /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61D32619A9E200A33EAB /* ADViewController.m */; };
+		80AB61DC2619A9E200A33EAB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61D72619A9E200A33EAB /* TestViewController.m */; };
+		80AB61DD2619A9E200A33EAB /* RoomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61D82619A9E200A33EAB /* RoomInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		80AB617626199B7500A33EAB /*  TRTCMixTranscodingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " TRTCMixTranscodingDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AB617926199B7500A33EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80AB617A26199B7500A33EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80AB617C26199B7500A33EAB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		80AB617D26199B7500A33EAB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		80AB617F26199B7500A33EAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80AB618026199B7500A33EAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80AB618326199B7500A33EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,20 @@
 		80AB619C26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = " TRTCMixTranscodingDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AB61A026199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _TRTCMixTranscodingDemoUITests.m; sourceTree = "<group>"; };
 		80AB61A226199B7900A33EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AB61C82619A97400A33EAB /* GenerateTestUserSig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateTestUserSig.m; sourceTree = "<group>"; };
+		80AB61C92619A97400A33EAB /* GenerateTestUserSig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateTestUserSig.h; sourceTree = "<group>"; };
+		80AB61D12619A9E100A33EAB /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		80AB61D22619A9E200A33EAB /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		80AB61D32619A9E200A33EAB /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		80AB61D42619A9E200A33EAB /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		80AB61D52619A9E200A33EAB /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		80AB61D62619A9E200A33EAB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		80AB61D72619A9E200A33EAB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		80AB61D82619A9E200A33EAB /* RoomInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomInfo.m; sourceTree = "<group>"; };
+		80AB61D92619A9E200A33EAB /* RoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomInfo.h; sourceTree = "<group>"; };
+		92D36D703CDA77C322B340EE /* Pods- TRTCMixTranscodingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods- TRTCMixTranscodingDemo.release.xcconfig"; path = "Target Support Files/Pods- TRTCMixTranscodingDemo/Pods- TRTCMixTranscodingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ABF5B772D7CBA68712CAE8B7 /* Pods__TRTCMixTranscodingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__TRTCMixTranscodingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79239C9A98229EE7AB231DA /* Pods- TRTCMixTranscodingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods- TRTCMixTranscodingDemo.debug.xcconfig"; path = "Target Support Files/Pods- TRTCMixTranscodingDemo/Pods- TRTCMixTranscodingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3CB5C588A3E02A81A02288 /* Pods__TRTCMixTranscodingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EF52F75EB49A713BAD7E762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF5B772D7CBA68712CAE8B7 /* Pods__TRTCMixTranscodingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71DF8B52C07B1C95251EFB89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C79239C9A98229EE7AB231DA /* Pods- TRTCMixTranscodingDemo.debug.xcconfig */,
+				92D36D703CDA77C322B340EE /* Pods- TRTCMixTranscodingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		80AB616D26199B7500A33EAB = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +123,8 @@
 				80AB619426199B7900A33EAB /*  TRTCMixTranscodingDemoTests */,
 				80AB619F26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests */,
 				80AB617726199B7500A33EAB /* Products */,
+				71DF8B52C07B1C95251EFB89 /* Pods */,
+				2EF52F75EB49A713BAD7E762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +141,20 @@
 		80AB617826199B7500A33EAB /*  TRTCMixTranscodingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				80AB61C72619A97400A33EAB /* Debug */,
 				80AB617926199B7500A33EAB /* AppDelegate.h */,
 				80AB617A26199B7500A33EAB /* AppDelegate.m */,
-				80AB617C26199B7500A33EAB /* SceneDelegate.h */,
-				80AB617D26199B7500A33EAB /* SceneDelegate.m */,
 				80AB617F26199B7500A33EAB /* ViewController.h */,
 				80AB618026199B7500A33EAB /* ViewController.m */,
+				80AB61D42619A9E200A33EAB /* ADViewController.h */,
+				80AB61D32619A9E200A33EAB /* ADViewController.m */,
+				80AB61D12619A9E100A33EAB /* LoginView.h */,
+				80AB61D22619A9E200A33EAB /* LoginView.m */,
+				80AB61D92619A9E200A33EAB /* RoomInfo.h */,
+				80AB61D82619A9E200A33EAB /* RoomInfo.m */,
+				80AB61D62619A9E200A33EAB /* TestViewController.h */,
+				80AB61D72619A9E200A33EAB /* TestViewController.m */,
+				80AB61D52619A9E200A33EAB /* HeaderFile.h */,
 				80AB618226199B7500A33EAB /* Main.storyboard */,
 				80AB618526199B7800A33EAB /* Assets.xcassets */,
 				80AB618726199B7800A33EAB /* LaunchScreen.storyboard */,
@@ -137,6 +182,15 @@
 			path = " TRTCMixTranscodingDemoUITests";
 			sourceTree = "<group>";
 		};
+		80AB61C72619A97400A33EAB /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				80AB61C82619A97400A33EAB /* GenerateTestUserSig.m */,
+				80AB61C92619A97400A33EAB /* GenerateTestUserSig.h */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80AB61A526199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemo" */;
 			buildPhases = (
+				EF575FDFD6591157DBCB2BE1 /* [CP] Check Pods Manifest.lock */,
 				80AB617226199B7500A33EAB /* Sources */,
 				80AB617326199B7500A33EAB /* Frameworks */,
 				80AB617426199B7500A33EAB /* Resources */,
+				86E0EF5C6B7598415D4C233D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +317,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86E0EF5C6B7598415D4C233D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods- TRTCMixTranscodingDemo/Pods- TRTCMixTranscodingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods- TRTCMixTranscodingDemo/Pods- TRTCMixTranscodingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods- TRTCMixTranscodingDemo/Pods- TRTCMixTranscodingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF575FDFD6591157DBCB2BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods- TRTCMixTranscodingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80AB617226199B7500A33EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				80AB618126199B7500A33EAB /* ViewController.m in Sources */,
+				80AB61DB2619A9E200A33EAB /* ADViewController.m in Sources */,
+				80AB61DC2619A9E200A33EAB /* TestViewController.m in Sources */,
+				80AB61CA2619A97400A33EAB /* GenerateTestUserSig.m in Sources */,
 				80AB617B26199B7500A33EAB /* AppDelegate.m in Sources */,
+				80AB61DA2619A9E200A33EAB /* LoginView.m in Sources */,
+				80AB61DD2619A9E200A33EAB /* RoomInfo.m in Sources */,
 				80AB618C26199B7800A33EAB /* main.m in Sources */,
-				80AB617E26199B7500A33EAB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,11 +540,14 @@
 		};
 		80AB61A626199B7900A33EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79239C9A98229EE7AB231DA /* Pods- TRTCMixTranscodingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX9DM28Q26;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "/Users/chenrongke/Desktop/赋能/TRTCMixTranscodingDemo/ TRTCMixTranscodingDemo/HeaderFile.h";
 				INFOPLIST_FILE = " TRTCMixTranscodingDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,11 +561,14 @@
 		};
 		80AB61A726199B7900A33EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D36D703CDA77C322B340EE /* Pods- TRTCMixTranscodingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX9DM28Q26;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "/Users/chenrongke/Desktop/赋能/TRTCMixTranscodingDemo/ TRTCMixTranscodingDemo/HeaderFile.h";
 				INFOPLIST_FILE = " TRTCMixTranscodingDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
