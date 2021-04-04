@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AB617B26199B7500A33EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB617A26199B7500A33EAB /* AppDelegate.m */; };
+		80AB617E26199B7500A33EAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB617D26199B7500A33EAB /* SceneDelegate.m */; };
+		80AB618126199B7500A33EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB618026199B7500A33EAB /* ViewController.m */; };
+		80AB618426199B7500A33EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AB618226199B7500A33EAB /* Main.storyboard */; };
+		80AB618626199B7800A33EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AB618526199B7800A33EAB /* Assets.xcassets */; };
+		80AB618926199B7800A33EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AB618726199B7800A33EAB /* LaunchScreen.storyboard */; };
+		80AB618C26199B7800A33EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB618B26199B7800A33EAB /* main.m */; };
+		80AB619626199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB619526199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m */; };
+		80AB61A126199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AB61A026199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AB619226199B7900A33EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AB616E26199B7500A33EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AB617526199B7500A33EAB;
+			remoteInfo = " TRTCMixTranscodingDemo";
+		};
+		80AB619D26199B7900A33EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AB616E26199B7500A33EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AB617526199B7500A33EAB;
+			remoteInfo = " TRTCMixTranscodingDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80AB617626199B7500A33EAB /*  TRTCMixTranscodingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " TRTCMixTranscodingDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AB617926199B7500A33EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80AB617A26199B7500A33EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80AB617C26199B7500A33EAB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		80AB617D26199B7500A33EAB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		80AB617F26199B7500A33EAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80AB618026199B7500A33EAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80AB618326199B7500A33EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AB618526199B7800A33EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80AB618826199B7800A33EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80AB618A26199B7800A33EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AB618B26199B7800A33EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AB619126199B7900A33EAB /*  TRTCMixTranscodingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = " TRTCMixTranscodingDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AB619526199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _TRTCMixTranscodingDemoTests.m; sourceTree = "<group>"; };
+		80AB619726199B7900A33EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AB619C26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = " TRTCMixTranscodingDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AB61A026199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _TRTCMixTranscodingDemoUITests.m; sourceTree = "<group>"; };
+		80AB61A226199B7900A33EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AB617326199B7500A33EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB618E26199B7900A33EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB619926199B7900A33EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AB616D26199B7500A33EAB = {
+			isa = PBXGroup;
+			children = (
+				80AB617826199B7500A33EAB /*  TRTCMixTranscodingDemo */,
+				80AB619426199B7900A33EAB /*  TRTCMixTranscodingDemoTests */,
+				80AB619F26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests */,
+				80AB617726199B7500A33EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AB617726199B7500A33EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AB617626199B7500A33EAB /*  TRTCMixTranscodingDemo.app */,
+				80AB619126199B7900A33EAB /*  TRTCMixTranscodingDemoTests.xctest */,
+				80AB619C26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AB617826199B7500A33EAB /*  TRTCMixTranscodingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				80AB617926199B7500A33EAB /* AppDelegate.h */,
+				80AB617A26199B7500A33EAB /* AppDelegate.m */,
+				80AB617C26199B7500A33EAB /* SceneDelegate.h */,
+				80AB617D26199B7500A33EAB /* SceneDelegate.m */,
+				80AB617F26199B7500A33EAB /* ViewController.h */,
+				80AB618026199B7500A33EAB /* ViewController.m */,
+				80AB618226199B7500A33EAB /* Main.storyboard */,
+				80AB618526199B7800A33EAB /* Assets.xcassets */,
+				80AB618726199B7800A33EAB /* LaunchScreen.storyboard */,
+				80AB618A26199B7800A33EAB /* Info.plist */,
+				80AB618B26199B7800A33EAB /* main.m */,
+			);
+			path = " TRTCMixTranscodingDemo";
+			sourceTree = "<group>";
+		};
+		80AB619426199B7900A33EAB /*  TRTCMixTranscodingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AB619526199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m */,
+				80AB619726199B7900A33EAB /* Info.plist */,
+			);
+			path = " TRTCMixTranscodingDemoTests";
+			sourceTree = "<group>";
+		};
+		80AB619F26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80AB61A026199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m */,
+				80AB61A226199B7900A33EAB /* Info.plist */,
+			);
+			path = " TRTCMixTranscodingDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AB617526199B7500A33EAB /*  TRTCMixTranscodingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AB61A526199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemo" */;
+			buildPhases = (
+				80AB617226199B7500A33EAB /* Sources */,
+				80AB617326199B7500A33EAB /* Frameworks */,
+				80AB617426199B7500A33EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = " TRTCMixTranscodingDemo";
+			productName = " TRTCMixTranscodingDemo";
+			productReference = 80AB617626199B7500A33EAB /*  TRTCMixTranscodingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AB619026199B7900A33EAB /*  TRTCMixTranscodingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AB61A826199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemoTests" */;
+			buildPhases = (
+				80AB618D26199B7900A33EAB /* Sources */,
+				80AB618E26199B7900A33EAB /* Frameworks */,
+				80AB618F26199B7900A33EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AB619326199B7900A33EAB /* PBXTargetDependency */,
+			);
+			name = " TRTCMixTranscodingDemoTests";
+			productName = " TRTCMixTranscodingDemoTests";
+			productReference = 80AB619126199B7900A33EAB /*  TRTCMixTranscodingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80AB619B26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AB61AB26199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemoUITests" */;
+			buildPhases = (
+				80AB619826199B7900A33EAB /* Sources */,
+				80AB619926199B7900A33EAB /* Frameworks */,
+				80AB619A26199B7900A33EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AB619E26199B7900A33EAB /* PBXTargetDependency */,
+			);
+			name = " TRTCMixTranscodingDemoUITests";
+			productName = " TRTCMixTranscodingDemoUITests";
+			productReference = 80AB619C26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AB616E26199B7500A33EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					80AB617526199B7500A33EAB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					80AB619026199B7900A33EAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80AB617526199B7500A33EAB;
+					};
+					80AB619B26199B7900A33EAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80AB617526199B7500A33EAB;
+					};
+				};
+			};
+			buildConfigurationList = 80AB617126199B7500A33EAB /* Build configuration list for PBXProject " TRTCMixTranscodingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AB616D26199B7500A33EAB;
+			productRefGroup = 80AB617726199B7500A33EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AB617526199B7500A33EAB /*  TRTCMixTranscodingDemo */,
+				80AB619026199B7900A33EAB /*  TRTCMixTranscodingDemoTests */,
+				80AB619B26199B7900A33EAB /*  TRTCMixTranscodingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AB617426199B7500A33EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB618926199B7800A33EAB /* LaunchScreen.storyboard in Resources */,
+				80AB618626199B7800A33EAB /* Assets.xcassets in Resources */,
+				80AB618426199B7500A33EAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB618F26199B7900A33EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB619A26199B7900A33EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AB617226199B7500A33EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB618126199B7500A33EAB /* ViewController.m in Sources */,
+				80AB617B26199B7500A33EAB /* AppDelegate.m in Sources */,
+				80AB618C26199B7800A33EAB /* main.m in Sources */,
+				80AB617E26199B7500A33EAB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB618D26199B7900A33EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB619626199B7900A33EAB /* _TRTCMixTranscodingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AB619826199B7900A33EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB61A126199B7900A33EAB /* _TRTCMixTranscodingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AB619326199B7900A33EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AB617526199B7500A33EAB /*  TRTCMixTranscodingDemo */;
+			targetProxy = 80AB619226199B7900A33EAB /* PBXContainerItemProxy */;
+		};
+		80AB619E26199B7900A33EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AB617526199B7500A33EAB /*  TRTCMixTranscodingDemo */;
+			targetProxy = 80AB619D26199B7900A33EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80AB618226199B7500A33EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AB618326199B7500A33EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AB618726199B7800A33EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AB618826199B7800A33EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AB61A326199B7900A33EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AB61A426199B7900A33EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AB61A626199B7900A33EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AB61A726199B7900A33EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80AB61A926199B7900A33EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ TRTCMixTranscodingDemo.app/ TRTCMixTranscodingDemo";
+			};
+			name = Debug;
+		};
+		80AB61AA26199B7900A33EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ TRTCMixTranscodingDemo.app/ TRTCMixTranscodingDemo";
+			};
+			name = Release;
+		};
+		80AB61AC26199B7900A33EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = " TRTCMixTranscodingDemo";
+			};
+			name = Debug;
+		};
+		80AB61AD26199B7900A33EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9DM28Q26;
+				INFOPLIST_FILE = " TRTCMixTranscodingDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dh.fihe.com.-TRTCMixTranscodingDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = " TRTCMixTranscodingDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AB617126199B7500A33EAB /* Build configuration list for PBXProject " TRTCMixTranscodingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB61A326199B7900A33EAB /* Debug */,
+				80AB61A426199B7900A33EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AB61A526199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB61A626199B7900A33EAB /* Debug */,
+				80AB61A726199B7900A33EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AB61A826199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB61A926199B7900A33EAB /* Debug */,
+				80AB61AA26199B7900A33EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AB61AB26199B7900A33EAB /* Build configuration list for PBXNativeTarget " TRTCMixTranscodingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AB61AC26199B7900A33EAB /* Debug */,
+				80AB61AD26199B7900A33EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AB616E26199B7500A33EAB /* Project object */;
+}
